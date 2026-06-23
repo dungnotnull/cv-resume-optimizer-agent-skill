@@ -1,0 +1,19 @@
+# CV/Resume Optimizer - Production Dependencies
+
+# Web crawling (optional - graceful degradation if not available)
+crawl4ai>=0.2.0
+
+# HTTP client for fallback crawling
+requests>=2.31.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+
+# Linting and formatting (dev dependencies)
+# pylint>=2.17.0
+# black>=23.0.0
+# mypy>=1.0.0
+
+# Testing (dev dependencies)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
